@@ -15,7 +15,7 @@ all:
 	@echo make package to create a package
 
 clean:
-	rm -Rf dist $(FILE)
+	rm -Rf dist
 
 $(FILE):
 	wget $(URL) -c -O $(FILE).tmp && mv $(FILE).tmp $(FILE)
@@ -30,3 +30,7 @@ package:
 	mkdir -p dist/package
 	mv ../*.deb dist/package/
 	rm ../*.changes
+
+test-package:
+	make clean
+	make package && sudo dpkg -i dist/package/*
