@@ -1,0 +1,16 @@
+Source: nsq
+Section: unknown
+Priority: optional
+Maintainer: Florent Clairambault <florent@unknown>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: http://nsq.io/deployment/installing.html
+#Vcs-Git: git://git.debian.org/collab-maint/nsq.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/nsq.git;a=summary
+
+Package: nsq
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: nsq binaries
+ NSQ package built directly from binaries
+
