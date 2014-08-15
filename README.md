@@ -1,7 +1,6 @@
-# Package it
+# Download it
 
-    $ make package
-    [...]
+From here: https://github.com/fclairamb/nsq-build/releases
 
 
 # Install it
