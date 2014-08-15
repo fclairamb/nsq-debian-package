@@ -36,5 +36,5 @@ Version:
 
 Checksum:
 
-    $ sha1sum `which nsqd`
+    $ sha1sum /usr/bin/nsqd
     cd8b6ec10a9425ab7c11f199d236cbf9b7df9490  /usr/bin/nsqd
