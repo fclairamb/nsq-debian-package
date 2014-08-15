@@ -1,9 +1,13 @@
-# Download it
+# NSQ debian package
 
-From here: https://github.com/fclairamb/nsq-build/releases
+This is debian package with the official NSQ binaries.
+
+## Download it
+
+From here: https://github.com/fclairamb/nsq-build/releases (amd64 only)
 
 
-# Install it
+## Install it
     $ sudo dpkg -i dist/package/nsq_0.2.30_amd64.deb 
     Selecting previously unselected package nsq.
     (Reading database ... 337081 files and directories currently installed.)
@@ -12,7 +16,7 @@ From here: https://github.com/fclairamb/nsq-build/releases
     Setting up nsq (0.2.30) ...
 
 
-# Use it
+## Use it
     $ ls -l /usr/bin/*nsq*
     lrwxrwxrwx 1 root root 50 août  15 01:58 /usr/bin/nsqadmin -> /opt/nsq/nsq-0.2.30.linux-amd64.go1.3/bin/nsqadmin
     lrwxrwxrwx 1 root root 46 août  15 01:58 /usr/bin/nsqd -> /opt/nsq/nsq-0.2.30.linux-amd64.go1.3/bin/nsqd
