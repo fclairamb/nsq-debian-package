@@ -4,7 +4,7 @@ This is debian package with the official NSQ binaries.
 
 ## Download it
 
-From here: https://github.com/fclairamb/nsq-build/releases (amd64 only)
+    $ wget https://github.com/fclairamb/nsq-build/releases/download/0.2.30/nsq_0.2.30_amd64.deb
 
 
 ## Install it
