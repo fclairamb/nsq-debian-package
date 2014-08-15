@@ -8,7 +8,7 @@ From here: https://github.com/fclairamb/nsq-build/releases (amd64 only)
 
 
 ## Install it
-    $ sudo dpkg -i dist/package/nsq_0.2.30_amd64.deb 
+    $ sudo dpkg -i nsq_0.2.30_amd64.deb 
     Selecting previously unselected package nsq.
     (Reading database ... 337081 files and directories currently installed.)
     Preparing to unpack .../package/nsq_0.2.30_amd64.deb ...
