@@ -1,5 +1,5 @@
-VERSION=0.2.30
-GO_VERSION=1.3
+VERSION=0.2.31
+GO_VERSION=1.3.1
 
 BASE=nsq-$(VERSION).linux-amd64.go$(GO_VERSION)
 FILE=tmp/$(BASE).tar.gz
@@ -24,7 +24,9 @@ $(FILE):
 install: $(FILE)
 	mkdir -p $(DESTDIR)/opt/nsq/ $(DESTDIR)/usr/bin/
 	tar -zxvf $(FILE) -C $(DESTDIR)/opt/nsq/
-	ln -s /opt/nsq/$(BASE)/bin/* $(DESTDIR)/usr/bin/
+	for f in `ls $(DESTDIR)/opt/nsq/$(BASE)/bin/* | xargs -n1 basename` ; do \
+	  ln -s /opt/nsq/$(BASE)/bin/$$f $(DESTDIR)/usr/bin/$$f ; \
+	done 
 
 package:
 	dpkg-buildpackage -b -us -uc
