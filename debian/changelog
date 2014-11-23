@@ -1,3 +1,9 @@
+nsq (0.3.0) UNRELEASED; urgency=low
+
+  * Updating NSQ package.
+
+ -- Florent Clairambault <florent@xps>  Sun, 23 Nov 2014 19:55:53 +0100
+
 nsq (0.2.31) unstable; urgency=low
 
   * Updating NSQ package.

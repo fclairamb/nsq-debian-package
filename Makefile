@@ -1,5 +1,5 @@
-VERSION=0.2.31
-GO_VERSION=1.3.1
+VERSION=0.3.0
+GO_VERSION=1.3.3
 
 BASE=nsq-$(VERSION).linux-amd64.go$(GO_VERSION)
 FILE=tmp/$(BASE).tar.gz
