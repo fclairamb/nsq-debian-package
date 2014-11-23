@@ -1,6 +1,6 @@
 # NSQ debian package
 
-This is debian package with the official NSQ binaries.
+This is debian package with the official [NSQ](https://github.com/bitly/nsq) [binaries](https://github.com/bitly/nsq/releases). Only the binaries compiled for amd64 with the latest version of go are provided.
 
 ## Download it
 
@@ -8,6 +8,7 @@ This is debian package with the official NSQ binaries.
 
 
 ## Install it
+
     $ sudo dpkg -i nsq_0.3.0_amd64.deb
     (Reading database ... 333137 files and directories currently installed.)
     Preparing to unpack nsq_0.3.0_amd64.deb ...
@@ -16,6 +17,7 @@ This is debian package with the official NSQ binaries.
 
 
 ## Use it
+
     $ ls -l /usr/bin/*nsq*
     lrwxrwxrwx 1 root root  51 nov.  23 19:56 /usr/bin/nsqadmin -> /opt/nsq/nsq-0.3.0.linux-amd64.go1.3.3/bin/nsqadmin
     lrwxrwxrwx 1 root root  47 nov.  23 19:56 /usr/bin/nsqd -> /opt/nsq/nsq-0.3.0.linux-amd64.go1.3.3/bin/nsqd
@@ -47,4 +49,3 @@ Checksum:
     bd61e6da57012f89950e309860f2a3791879b9b8  /usr/bin/nsq_to_http
     c922d2050b8b3217ab05a2d790c724dd66891eeb  /usr/bin/nsq_to_nsq
     938aae748853b50ef69204f5982957cbc71f3964  /usr/bin/to_nsq
-
