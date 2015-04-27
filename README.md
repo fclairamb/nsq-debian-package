@@ -4,48 +4,51 @@ This is debian package with the official [NSQ](https://github.com/bitly/nsq) [bi
 
 ## Download it
 
-    $ wget https://github.com/fclairamb/nsq-build/releases/download/0.3.0/nsq_0.3.0_amd64.deb
+    $ wget https://github.com/fclairamb/nsq-debian-package/releases/download/0.3.5/nsq_0.3.5_amd64.deb
 
 
 ## Install it
 
-    $ sudo dpkg -i nsq_0.3.0_amd64.deb
-    (Reading database ... 333137 files and directories currently installed.)
-    Preparing to unpack nsq_0.3.0_amd64.deb ...
-    Unpacking nsq (0.3.0) over (0.2.31) ...
-    Setting up nsq (0.3.0) ...
+    $ sudo dpkg -i nsq_0.3.5_amd64.deb 
+    (Reading database ... 33401 files and directories currently installed.)
+    Preparing to unpack nsq_0.3.5_amd64.deb ...
+    Unpacking nsq (0.3.5) over (0.3.2) ...
+    Setting up nsq (0.3.5) ...
+
 
 
 ## Use it
 
     $ ls -l /usr/bin/*nsq*
-    lrwxrwxrwx 1 root root  51 nov.  23 19:56 /usr/bin/nsqadmin -> /opt/nsq/nsq-0.3.0.linux-amd64.go1.3.3/bin/nsqadmin
-    lrwxrwxrwx 1 root root  47 nov.  23 19:56 /usr/bin/nsqd -> /opt/nsq/nsq-0.3.0.linux-amd64.go1.3.3/bin/nsqd
-    lrwxrwxrwx 1 root root  53 nov.  23 19:56 /usr/bin/nsqlookupd -> /opt/nsq/nsq-0.3.0.linux-amd64.go1.3.3/bin/nsqlookupd
-    lrwxrwxrwx 1 root root  53 nov.  23 19:56 /usr/bin/nsq_pubsub -> /opt/nsq/nsq-0.3.0.linux-amd64.go1.3.3/bin/nsq_pubsub
-    lrwxrwxrwx 1 root root  51 nov.  23 19:56 /usr/bin/nsq_stat -> /opt/nsq/nsq-0.3.0.linux-amd64.go1.3.3/bin/nsq_stat
-    lrwxrwxrwx 1 root root  51 nov.  23 19:56 /usr/bin/nsq_tail -> /opt/nsq/nsq-0.3.0.linux-amd64.go1.3.3/bin/nsq_tail
-    lrwxrwxrwx 1 root root  54 nov.  23 19:56 /usr/bin/nsq_to_file -> /opt/nsq/nsq-0.3.0.linux-amd64.go1.3.3/bin/nsq_to_file
-    lrwxrwxrwx 1 root root  54 nov.  23 19:56 /usr/bin/nsq_to_http -> /opt/nsq/nsq-0.3.0.linux-amd64.go1.3.3/bin/nsq_to_http
-    lrwxrwxrwx 1 root root  53 nov.  23 19:56 /usr/bin/nsq_to_nsq -> /opt/nsq/nsq-0.3.0.linux-amd64.go1.3.3/bin/nsq_to_nsq
-    lrwxrwxrwx 1 root root  49 nov.  23 19:56 /usr/bin/to_nsq -> /opt/nsq/nsq-0.3.0.linux-amd64.go1.3.3/bin/to_nsq
+    lrwxrwxrwx 1 root root   51 avril 27 21:47 /usr/bin/nsqadmin -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsqadmin
+    lrwxrwxrwx 1 root root   47 avril 27 21:47 /usr/bin/nsqd -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsqd
+    lrwxrwxrwx 1 root root   53 avril 27 21:47 /usr/bin/nsqlookupd -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsqlookupd
+    lrwxrwxrwx 1 root root   53 avril 27 21:47 /usr/bin/nsq_pubsub -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsq_pubsub
+    lrwxrwxrwx 1 root root   51 avril 27 21:47 /usr/bin/nsq_stat -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsq_stat
+    lrwxrwxrwx 1 root root   51 avril 27 21:47 /usr/bin/nsq_tail -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsq_tail
+    lrwxrwxrwx 1 root root   54 avril 27 21:47 /usr/bin/nsq_to_file -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsq_to_file
+    lrwxrwxrwx 1 root root   54 avril 27 21:47 /usr/bin/nsq_to_http -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsq_to_http
+    lrwxrwxrwx 1 root root   53 avril 27 21:47 /usr/bin/nsq_to_nsq -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsq_to_nsq
+    lrwxrwxrwx 1 root root   49 avril 27 21:47 /usr/bin/to_nsq -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/to_nsq
+    -rwxr-xr-x 1 root root 6224 déc.  12  2012 /usr/bin/unsq
 
 
 Version:
 
     $ nsqd --version
-    nsqd v0.3.0 (built w/go1.3.3)
+    nsqd v0.3.5 (built w/go1.4.2)
 
 Checksum:
 
-    $ sha1sum /usr/bin/nsqd
-    71af0356611d189e5f1fbe27418b654bcc5f31a3  /usr/bin/nsqadmin
-    1bc244cae81eb07f005804e458766f2c79fa214d  /usr/bin/nsqd
-    e1e3193b8f2926c0a3c4de8fdc5c3038e79ecbd9  /usr/bin/nsqlookupd
-    f846574f462977f625ffb16fbee007b5e9e47297  /usr/bin/nsq_pubsub
-    63b403aeb9fbbe47d977bc4b35915a87632fefb3  /usr/bin/nsq_stat
-    8a90026be16530f21792958d0c1def3c134e66d3  /usr/bin/nsq_tail
-    deee92e1894ba3ecef0a224d8ad0468c55e68664  /usr/bin/nsq_to_file
-    bd61e6da57012f89950e309860f2a3791879b9b8  /usr/bin/nsq_to_http
-    c922d2050b8b3217ab05a2d790c724dd66891eeb  /usr/bin/nsq_to_nsq
-    938aae748853b50ef69204f5982957cbc71f3964  /usr/bin/to_nsq
+    $ sha1sum /usr/bin/*nsq*
+    53278446acfd00b47a25d1e7d7f86cb29b875388  /usr/bin/nsqadmin
+    f202af76cebe1bb4308347f1fb19b7f000104a53  /usr/bin/nsqd
+    28bc542e2e903ec4821830adc6d476608970c09c  /usr/bin/nsqlookupd
+    5885500353e93c4d45bd6c9194cbb0c21bbc4f44  /usr/bin/nsq_pubsub
+    a7586ba1e527748b3689673fbb5b89d817b84c98  /usr/bin/nsq_stat
+    cbf42f6e0c330a3b00607badefec99470ba538c1  /usr/bin/nsq_tail
+    1cc05915d10ef10b4f9d01d7c9a5326835134e46  /usr/bin/nsq_to_file
+    18329ecfe768202bdda1c8722442c933ae5c59ef  /usr/bin/nsq_to_http
+    143ef64851c7d207d3bb13b187224db7a231a578  /usr/bin/nsq_to_nsq
+    b1cde6671e7e27d18520931d2219f83ceef313c8  /usr/bin/to_nsq
+
