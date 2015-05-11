@@ -15,7 +15,15 @@ This is debian package with the official [NSQ](https://github.com/bitly/nsq) [bi
     Unpacking nsq (0.3.5) over (0.3.2) ...
     Setting up nsq (0.3.5) ...
 
+## APT alternative
 
+You can also add my APT server to make future upgrades easier:
+
+    SUDO=$(which sudo) # We might not have a sudo
+    wget -qO - http://apt.webingenia.com/key.gpg | $SUDO apt-key add - # We add the key
+    echo "deb http://apt.webingenia.com/ unstable/" | $SUDO tee /etc/apt/sources.list.d/webingenia.list # And the repository
+    $SUDO apt-get update # And we update our repositories
+    $SUDO apt-get install nsq -y
 
 ## Use it
 
