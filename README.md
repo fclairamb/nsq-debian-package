@@ -38,7 +38,6 @@ You can also add my APT server to make future upgrades easier:
     lrwxrwxrwx 1 root root   54 avril 27 21:47 /usr/bin/nsq_to_http -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsq_to_http
     lrwxrwxrwx 1 root root   53 avril 27 21:47 /usr/bin/nsq_to_nsq -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/nsq_to_nsq
     lrwxrwxrwx 1 root root   49 avril 27 21:47 /usr/bin/to_nsq -> /opt/nsq/nsq-0.3.5.linux-amd64.go1.4.2/bin/to_nsq
-    -rwxr-xr-x 1 root root 6224 déc.  12  2012 /usr/bin/unsq
 
 
 Version:
