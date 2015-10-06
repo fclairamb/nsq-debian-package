@@ -1,3 +1,9 @@
+nsq (0.3.6) unstable; urgency=low
+
+  * Updating NSQ package.
+
+ -- Florent Clairambault <florent@clairambault.fr>  Tue, 06 Oct 2015 22:29:25 +0200
+
 nsq (0.3.5) unstable; urgency=low
 
   * Updating NSQ package.
@@ -8,28 +14,28 @@ nsq (0.3.2) unstable; urgency=low
 
   * Updating NSQ package.
 
- -- Florent Clairambault <florent@xps>  Tue, 10 Feb 2015 00:44:22 +0100
+ -- Florent Clairambault <florent@clairambault.fr>  Tue, 10 Feb 2015 00:44:22 +0100
 
 nsq (0.3.1) unstable; urgency=low
 
   * Updating NSQ package.
 
- -- Florent Clairambault <florent@xps>  Wed, 04 Feb 2015 03:04:40 +0100
+ -- Florent Clairambault <florent@clairambault.fr>  Wed, 04 Feb 2015 03:04:40 +0100
 
 nsq (0.3.0) unstable; urgency=low
 
   * Updating NSQ package. 
 
- -- Florent Clairambault <florent@xps>  Sun, 23 Nov 2014 19:55:53 +0100
+ -- Florent Clairambault <florent@clairambault.fr>  Sun, 23 Nov 2014 19:55:53 +0100
 
 nsq (0.2.31) unstable; urgency=low
 
   * Updating NSQ package.
 
- -- Florent Clairambault <florent@xps>  Fri, 12 Sep 2014 00:41:49 +0200
+ -- Florent Clairambault <florent@clairambault.fr>  Fri, 12 Sep 2014 00:41:49 +0200
 
 nsq (0.2.30) unstable; urgency=low
 
   * Initial Release.
 
- -- Florent Clairambault <florent@unknown>  Fri, 15 Aug 2014 01:19:00 +0200
+ -- Florent Clairambault <florent@clairambault.fr>  Fri, 15 Aug 2014 01:19:00 +0200
