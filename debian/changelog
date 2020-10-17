@@ -1,3 +1,9 @@
+nsq (1.1.0) unstable; urgency=low
+
+  * Updating NSQ package.
+
+ -- Jamieson Becker <packaging@jamiesonbecker.com>  Wed, 26 Oct 2018 14:30:25 -0600
+
 nsq (0.3.6) unstable; urgency=low
 
   * Updating NSQ package.
